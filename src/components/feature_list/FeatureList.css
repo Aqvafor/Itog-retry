@@ -1,0 +1,40 @@
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #242029;
+    gap: 20px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    background: linear-gradient(180deg, #FFFFFF -13.5%, rgba(243, 247, 239, 0) 187.91%);
+    box-shadow: 0px 0px 21px 7px #00000057;
+    font-family: Avenir serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    border-radius: 35px;
+    width: fit-content;
+    color: #2F2A37;
+  }
+  .feature-name {
+    margin-right: 10px; 
+  }
+  .feature-item.checked {
+    background-color: #e0e0e0;
+  }
+  
+  
+    .checkmark {
+      height: 40px;
+        width: 40px; 
+        color:  #2F2A37;
+      }
+ 
+  

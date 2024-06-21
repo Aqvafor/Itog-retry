@@ -1,0 +1,36 @@
+
+.hero {
+   height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff; 
+    position: relative;
+}
+.hero__content{
+    width: 40%;
+}
+.hero__title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero__subtitle,
+.hero__description {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.hero__image{
+    z-index: 12;
+}
+.hero {
+    
+}
+
+.hero .weather-cities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}

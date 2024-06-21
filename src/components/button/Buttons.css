@@ -1,0 +1,14 @@
+.button{
+    text-transform: uppercase;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+padding: 15px;
+border-radius: 40px;
+border: none;
+position: relative;
+background: linear-gradient(92.02deg, #6BFFCA 13.34%, #00FF47 129.97%);
+z-index: 99999;
+
+
+}

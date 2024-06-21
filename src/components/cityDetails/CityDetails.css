@@ -1,0 +1,45 @@
+.city-details {
+    text-align: center;
+    padding: 20px;
+}
+
+.city-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forecast-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+
+/* src/components/cityDetails/CityDetails.css */
+.city-details {
+    padding: 20px;
+}
+
+.city-details h1, .city-details h2 {
+    margin: 10px 0;
+}
+
+.forecast {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forecast-day {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
