@@ -1,13 +1,13 @@
 .text-block {
-    display: grid;
-    gap: 15px;
+  display: grid;
+  gap: 15px;
 }
 .text-block__caption {
-    font-size: 24px;
+  font-size: 24px;
 }
 .text-block__text {
-    font-size: 12px;
+  font-size: 12px;
 }
 .text-block__caption_green {
-    color: #6BFFCA;
+  color: #6bffca;
 }

@@ -1,12 +1,13 @@
-
-import React from 'react';
-import './AddCityModal.css';
+import React from "react";
+import "./AddCityModal.css";
 
 const AddCityModal = ({ closeModal, addCity, availableCities }) => {
   return (
     <div className="modal">
       <div className="modal-content">
-        <span onClick={closeModal} className="close">&times;</span>
+        <span onClick={closeModal} className="close">
+          &times;
+        </span>
         <h2>Добавить город</h2>
         <ul>
           {availableCities.map((city, index) => (
@@ -18,6 +19,6 @@ const AddCityModal = ({ closeModal, addCity, availableCities }) => {
       </div>
     </div>
   );
-}
+};
 
 export default AddCityModal;

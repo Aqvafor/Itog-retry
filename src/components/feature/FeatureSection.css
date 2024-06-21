@@ -1,33 +1,32 @@
 .feature-section {
-    background-color: #242029; 
-    color: white; 
-    padding: 20px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    height: 500px;
-    z-index: 12;
+  background-color: #242029;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 500px;
+  z-index: 12;
 }
 
 .feature-section-title {
-    margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .feature-cards-container {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around; 
-    margin-bottom: 70px;
-    gap: 170px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+  gap: 170px;
 }
 
 .feature-card {
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    border-radius: 5px; 
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 5px;
 }
-

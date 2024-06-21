@@ -1,83 +1,81 @@
 .site-footer {
-    background-color: #f5f5f5;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-content {
-    display: flex;
-    align-items: start;
-    width: 100%;
-    gap: 410px;
-    margin-top: 60px;
+  display: flex;
+  align-items: start;
+  width: 100%;
+  gap: 410px;
+  margin-top: 60px;
 }
 .footer-content-main {
-    display: flex;
-    gap: 60px;
+  display: flex;
+  gap: 60px;
 }
 
 .footer-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer-logo {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-menu {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
-.footer-h4{
-    margin: 0;
-    margin-bottom: 15px;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-
+.footer-h4 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
 }
 .footer-menu li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .footer-menu a {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
 }
 
 .footer-socials {
-    max-width: 1500px;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    height: 75px;
-    background-color: #6BFFCA;
-
+  max-width: 1500px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 75px;
+  background-color: #6bffca;
 }
 
 .footer-socials a {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .footer-socials img {
-    width: 24px;
-    height: auto;
+  width: 24px;
+  height: auto;
 }
-.footer-socials-text{
-font-size: 14px;
-font-weight: 500;
-line-height: 17px;
+.footer-socials-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
 }
